@@ -1,0 +1,143 @@
+{
+  "id": "hq",
+  "name": "BestFood Company",
+  "children": [
+    {
+      "id": "DE",
+      "name": "Deutschland",
+      "manager": "Alice",
+      "children": [
+        {
+          "id": "süd",
+          "name": "Süd",
+          "manager": "Bob",
+          "children": [
+            {
+              "id": "dRB",
+              "name": "Diözese Rottenburg-Stuttgart",
+              "manager": "Bischof Klaus Krämer",
+              "children": [
+                {
+                  "id": "storeFr",
+                  "name": "Freiburg",
+                  "employees": [],
+                  "shiftPlan": [],
+                  "children": []
+                },
+                {
+                  "id": "storeS",
+                  "name": "Stuttgart",
+                  "employees": [
+                    {
+                      "id": "62d39a76-3fe2-412f-bca9-fa4a0b73647d",
+                      "name": "Emil"
+                    }
+                  ],
+                  "shiftPlan": [
+                    {
+                      "employeeId": "62d39a76-3fe2-412f-bca9-fa4a0b73647d",
+                      "start": "13:00",
+                      "end": "23:00"
+                    }
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "storeKa",
+              "name": "Karlsruhe",
+              "employees": [
+                {
+                  "id": "ad0edb18-cfe6-44fd-8907-9f1d82561a58",
+                  "name": "Daisy"
+                },
+                {
+                  "id": "275cb316-6bdd-48ab-bd13-619389745047",
+                  "name": "Daniel"
+                }
+              ],
+              "shiftPlan": [
+                {
+                  "employeeId": "ad0edb18-cfe6-44fd-8907-9f1d82561a58",
+                  "start": "12:00",
+                  "end": "20:00"
+                },
+                {
+                  "employeeId": "275cb316-6bdd-48ab-bd13-619389745047",
+                  "start": "11:00",
+                  "end": "13:00"
+                },
+                {
+                  "employeeId": "275cb316-6bdd-48ab-bd13-619389745047",
+                  "start": "15:00",
+                  "end": "21:00"
+                }
+              ],
+              "children": []
+            },
+            {
+              "id": "storeMn",
+              "name": "München",
+              "employees": [
+                {
+                  "id": "fa35a6d2-4786-4dc0-9fce-0fc83f3dff29",
+                  "name": "Fred"
+                }
+              ],
+              "shiftPlan": [
+                {
+                  "employeeId": "fa35a6d2-4786-4dc0-9fce-0fc83f3dff29",
+                  "start": "12:00",
+                  "end": "18:00"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "nord",
+          "name": "Nord",
+          "manager": "Klaus",
+          "children": [
+            {
+              "id": "storeKi",
+              "name": "Kiel",
+              "employees": [],
+              "shiftPlan": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "storeHh",
+          "name": "Hamburg",
+          "employees": [
+            {
+              "id": "b25a7a24-6e66-40b6-b94e-44a7c0523696",
+              "name": "Claus"
+            },
+            {
+              "id": "f9a39cf3-f9b1-4f7b-b609-98b009f6592f",
+              "name": "Claire"
+            }
+          ],
+          "shiftPlan": [
+            {
+              "employeeId": "b25a7a24-6e66-40b6-b94e-44a7c0523696",
+              "start": "08:00",
+              "end": "16:00"
+            },
+            {
+              "employeeId": "f9a39cf3-f9b1-4f7b-b609-98b009f6592f",
+              "start": "10:00",
+              "end": "14:00"
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}
